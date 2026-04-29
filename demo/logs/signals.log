@@ -1,0 +1,37 @@
+2026-04-26 00:33:53 | signal_engine | ERROR    | Failed to load model: Model file not found: C:\Users\BHARATH RC\OneDrive\Desktop\demo\models\xgb_nifty.pkl
+2026-04-26 00:33:53 | signal_engine | ERROR    | Failed to load feature columns: Feature columns file not found: C:\Users\BHARATH RC\OneDrive\Desktop\demo\models\feature_columns.json
+2026-04-26 01:09:11 | signal_engine | ERROR    | Failed to load model: Model file not found: C:\Users\BHARATH RC\OneDrive\Desktop\demo\models\xgb_nifty.pkl
+2026-04-26 01:09:11 | signal_engine | ERROR    | Failed to load feature columns: Feature columns file not found: C:\Users\BHARATH RC\OneDrive\Desktop\demo\models\feature_columns.json
+2026-04-26 01:13:02 | signal_engine | INFO     | XGBoost model loaded from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models\xgb_nifty.pkl
+2026-04-26 01:13:02 | signal_engine | INFO     | Feature columns loaded (25 columns) from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models\feature_columns.json
+2026-04-27 09:49:08 | signal_engine | INFO     | XGBoost model loaded from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models\xgb_nifty.pkl
+2026-04-27 09:49:08 | signal_engine | INFO     | Feature columns loaded (25 columns) from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models\feature_columns.json
+2026-04-28 10:04:39 | signal_engine | INFO     | XGBoost model loaded from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models\xgb_nifty.pkl
+2026-04-28 10:04:39 | signal_engine | INFO     | Feature columns loaded (25 columns) from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models\feature_columns.json
+2026-04-28 10:05:04 | signal_engine | INFO     | SIGNAL   | SELL | prob_buy=0.0219 | prob_sell=0.9781 | price=24110.20 | 2026-04-28 10:05:00 IST
+2026-04-28 10:10:00 | signal_engine | INFO     | FILTERED | SELL | prob_buy=0.0219 | price=24110.20 | Cooldown active — 5.0 min since last signal (need 30 min) — suppressed SELL
+2026-04-28 10:15:00 | signal_engine | INFO     | FILTERED | SELL | prob_buy=0.0219 | price=24110.20 | Cooldown active — 10.0 min since last signal (need 30 min) — suppressed SELL
+2026-04-28 19:31:26 | signal_engine | INFO     | Nifty model loaded from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models/xgb_nifty.pkl
+2026-04-28 19:31:26 | signal_engine | INFO     | BankNifty model loaded from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models/xgb_banknifty.pkl
+2026-04-28 19:31:26 | signal_engine | INFO     | Feature columns loaded (25 cols) from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models\feature_columns.json
+2026-04-28 19:32:49 | signal_engine | INFO     | Nifty model loaded from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models/xgb_nifty.pkl
+2026-04-28 19:32:49 | signal_engine | INFO     | BankNifty model loaded from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models/xgb_banknifty.pkl
+2026-04-28 19:32:49 | signal_engine | INFO     | Feature columns loaded (25 cols) from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models\feature_columns.json
+2026-04-28 19:38:56 | signal_engine | INFO     | Nifty model loaded from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models/xgb_nifty.pkl
+2026-04-28 19:38:56 | signal_engine | INFO     | BankNifty model loaded from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models/xgb_banknifty.pkl
+2026-04-28 19:38:56 | signal_engine | INFO     | Feature columns loaded (25 cols) from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models\feature_columns.json
+2026-04-29 09:44:43 | signal_engine | INFO     | Nifty model loaded from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models/xgb_nifty.pkl
+2026-04-29 09:44:43 | signal_engine | INFO     | BankNifty model loaded from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models/xgb_banknifty.pkl
+2026-04-29 09:44:43 | signal_engine | INFO     | Feature columns loaded (25 cols) from C:\Users\BHARATH RC\OneDrive\Desktop\demo\models\feature_columns.json
+2026-04-29 09:45:01 | signal_engine | INFO     | NIFTY | Grade A downgraded to B (trend MIXED).
+2026-04-29 09:45:02 | signal_engine | INFO     | SIGNAL | NIFTY | NIFTY 24000 PE | Grade B | ML 78% | ADX 26.3 | MIXED | price=24016.50
+2026-04-29 09:45:04 | signal_engine | INFO     | BANKNIFTY | Grade A downgraded to B (trend MIXED).
+2026-04-29 09:45:04 | signal_engine | INFO     | SIGNAL | BANKNIFTY | BANKNIFTY 55400 PE | Grade B | ML 79% | ADX 35.4 | MIXED | price=55415.35
+2026-04-29 09:50:00 | signal_engine | DEBUG    | Cooldown active for NIFTY -- skipping.
+2026-04-29 09:50:00 | signal_engine | DEBUG    | Cooldown active for BANKNIFTY -- skipping.
+2026-04-29 09:55:00 | signal_engine | DEBUG    | Cooldown active for NIFTY -- skipping.
+2026-04-29 09:55:00 | signal_engine | DEBUG    | Cooldown active for BANKNIFTY -- skipping.
+2026-04-29 10:00:00 | signal_engine | DEBUG    | Cooldown active for NIFTY -- skipping.
+2026-04-29 10:00:00 | signal_engine | DEBUG    | Cooldown active for BANKNIFTY -- skipping.
+2026-04-29 10:05:00 | signal_engine | DEBUG    | Cooldown active for NIFTY -- skipping.
+2026-04-29 10:05:00 | signal_engine | DEBUG    | Cooldown active for BANKNIFTY -- skipping.

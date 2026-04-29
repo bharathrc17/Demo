@@ -1,0 +1,384 @@
+2026-04-26 00:49:27 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2026-03-27 → 2026-04-26
+2026-04-26 00:49:27 | fetcher | DEBUG    | Date range 2026-03-27 → 2026-04-26 split into 2 chunk(s) of ≤30 days.
+2026-04-26 00:49:27 | fetcher | DEBUG    |   Chunk 1/2: 2026-03-27 → 2026-04-25
+2026-04-26 00:49:28 | fetcher | DEBUG    |     ↳ received 234 candle(s).
+2026-04-26 00:49:28 | fetcher | DEBUG    |   Chunk 2/2: 2026-04-26 → 2026-04-26
+2026-04-26 00:49:28 | fetcher | DEBUG    |     ↳ received 0 candle(s).
+2026-04-26 00:49:29 | fetcher | INFO     | Historical data ready — 234 rows, 2026-03-27 09:15:00+05:30 → 2026-04-24 15:15:00+05:30.
+2026-04-26 00:49:29 | fetcher | INFO     | Fetching last 150 live candles | instrument=NSE_INDEX|Nifty 50 | interval=30minute
+2026-04-26 00:49:29 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2026-03-31 → 2026-04-26
+2026-04-26 00:49:29 | fetcher | DEBUG    | Date range 2026-03-31 → 2026-04-26 split into 1 chunk(s) of ≤30 days.
+2026-04-26 00:49:29 | fetcher | DEBUG    |   Chunk 1/1: 2026-03-31 → 2026-04-26
+2026-04-26 00:49:29 | fetcher | DEBUG    |     ↳ received 208 candle(s).
+2026-04-26 00:49:29 | fetcher | INFO     | Historical data ready — 208 rows, 2026-04-01 09:15:00+05:30 → 2026-04-24 15:15:00+05:30.
+2026-04-26 00:49:29 | fetcher | INFO     | Live candles returned — 150 rows.
+2026-04-26 00:54:29 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2025-04-26 → 2026-04-26
+2026-04-26 00:54:29 | fetcher | DEBUG    | Date range 2025-04-26 → 2026-04-26 split into 13 chunk(s) of ≤30 days.
+2026-04-26 00:54:29 | fetcher | DEBUG    |   Chunk 1/13: 2025-04-26 → 2025-05-25
+2026-04-26 00:54:30 | fetcher | DEBUG    |     ↳ received 251 candle(s).
+2026-04-26 00:54:30 | fetcher | DEBUG    |   Chunk 2/13: 2025-05-26 → 2025-06-24
+2026-04-26 00:54:30 | fetcher | DEBUG    |     ↳ received 286 candle(s).
+2026-04-26 00:54:31 | fetcher | DEBUG    |   Chunk 3/13: 2025-06-25 → 2025-07-24
+2026-04-26 00:54:31 | fetcher | DEBUG    |     ↳ received 286 candle(s).
+2026-04-26 00:54:31 | fetcher | DEBUG    |   Chunk 4/13: 2025-07-25 → 2025-08-23
+2026-04-26 00:54:32 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-26 00:54:32 | fetcher | DEBUG    |   Chunk 5/13: 2025-08-24 → 2025-09-22
+2026-04-26 00:54:32 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-26 00:54:33 | fetcher | DEBUG    |   Chunk 6/13: 2025-09-23 → 2025-10-22
+2026-04-26 00:54:33 | fetcher | DEBUG    |     ↳ received 249 candle(s).
+2026-04-26 00:54:33 | fetcher | DEBUG    |   Chunk 7/13: 2025-10-23 → 2025-11-21
+2026-04-26 00:54:33 | fetcher | DEBUG    |     ↳ received 273 candle(s).
+2026-04-26 00:54:34 | fetcher | DEBUG    |   Chunk 8/13: 2025-11-22 → 2025-12-21
+2026-04-26 00:54:34 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-26 00:54:34 | fetcher | DEBUG    |   Chunk 9/13: 2025-12-22 → 2026-01-20
+2026-04-26 00:54:34 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-26 00:54:35 | fetcher | DEBUG    |   Chunk 10/13: 2026-01-21 → 2026-02-19
+2026-04-26 00:54:35 | fetcher | DEBUG    |     ↳ received 286 candle(s).
+2026-04-26 00:54:36 | fetcher | DEBUG    |   Chunk 11/13: 2026-02-20 → 2026-03-21
+2026-04-26 00:54:36 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-26 00:54:36 | fetcher | DEBUG    |   Chunk 12/13: 2026-03-22 → 2026-04-20
+2026-04-26 00:54:36 | fetcher | DEBUG    |     ↳ received 221 candle(s).
+2026-04-26 00:54:37 | fetcher | DEBUG    |   Chunk 13/13: 2026-04-21 → 2026-04-26
+2026-04-26 00:54:37 | fetcher | DEBUG    |     ↳ received 52 candle(s).
+2026-04-26 00:54:37 | fetcher | INFO     | Historical data ready — 3204 rows, 2025-04-28 09:15:00+05:30 → 2026-04-24 15:15:00+05:30.
+2026-04-26 01:02:15 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2025-04-26 → 2026-04-26
+2026-04-26 01:02:15 | fetcher | DEBUG    | Date range 2025-04-26 → 2026-04-26 split into 13 chunk(s) of ≤30 days.
+2026-04-26 01:02:15 | fetcher | DEBUG    |   Chunk 1/13: 2025-04-26 → 2025-05-25
+2026-04-26 01:02:16 | fetcher | DEBUG    |     ↳ received 251 candle(s).
+2026-04-26 01:02:16 | fetcher | DEBUG    |   Chunk 2/13: 2025-05-26 → 2025-06-24
+2026-04-26 01:02:16 | fetcher | DEBUG    |     ↳ received 286 candle(s).
+2026-04-26 01:02:17 | fetcher | DEBUG    |   Chunk 3/13: 2025-06-25 → 2025-07-24
+2026-04-26 01:02:17 | fetcher | DEBUG    |     ↳ received 286 candle(s).
+2026-04-26 01:02:17 | fetcher | DEBUG    |   Chunk 4/13: 2025-07-25 → 2025-08-23
+2026-04-26 01:02:17 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-26 01:02:18 | fetcher | DEBUG    |   Chunk 5/13: 2025-08-24 → 2025-09-22
+2026-04-26 01:02:18 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-26 01:02:19 | fetcher | DEBUG    |   Chunk 6/13: 2025-09-23 → 2025-10-22
+2026-04-26 01:02:19 | fetcher | DEBUG    |     ↳ received 249 candle(s).
+2026-04-26 01:02:19 | fetcher | DEBUG    |   Chunk 7/13: 2025-10-23 → 2025-11-21
+2026-04-26 01:02:19 | fetcher | DEBUG    |     ↳ received 273 candle(s).
+2026-04-26 01:02:20 | fetcher | DEBUG    |   Chunk 8/13: 2025-11-22 → 2025-12-21
+2026-04-26 01:02:20 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-26 01:02:20 | fetcher | DEBUG    |   Chunk 9/13: 2025-12-22 → 2026-01-20
+2026-04-26 01:02:20 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-26 01:02:21 | fetcher | DEBUG    |   Chunk 10/13: 2026-01-21 → 2026-02-19
+2026-04-26 01:02:21 | fetcher | DEBUG    |     ↳ received 286 candle(s).
+2026-04-26 01:02:21 | fetcher | DEBUG    |   Chunk 11/13: 2026-02-20 → 2026-03-21
+2026-04-26 01:02:22 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-26 01:02:22 | fetcher | DEBUG    |   Chunk 12/13: 2026-03-22 → 2026-04-20
+2026-04-26 01:02:22 | fetcher | DEBUG    |     ↳ received 221 candle(s).
+2026-04-26 01:02:23 | fetcher | DEBUG    |   Chunk 13/13: 2026-04-21 → 2026-04-26
+2026-04-26 01:02:23 | fetcher | DEBUG    |     ↳ received 52 candle(s).
+2026-04-26 01:02:23 | fetcher | INFO     | Historical data ready — 3204 rows, 2025-04-28 09:15:00+05:30 → 2026-04-24 15:15:00+05:30.
+2026-04-28 10:05:00 | fetcher | INFO     | Fetching last 150 live candles | instrument=NSE_INDEX|Nifty 50 | interval=30minute
+2026-04-28 10:05:00 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2026-04-02 → 2026-04-28
+2026-04-28 10:05:00 | fetcher | DEBUG    | Date range 2026-04-02 → 2026-04-28 split into 1 chunk(s) of ≤30 days.
+2026-04-28 10:05:00 | fetcher | DEBUG    |   Chunk 1/1: 2026-04-02 → 2026-04-28
+2026-04-28 10:05:00 | fetcher | DEBUG    |     ↳ received 208 candle(s).
+2026-04-28 10:05:00 | fetcher | INFO     | Historical data ready — 208 rows, 2026-04-02 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 10:05:00 | fetcher | INFO     | Live candles returned — 150 rows.
+2026-04-28 10:10:00 | fetcher | INFO     | Fetching last 150 live candles | instrument=NSE_INDEX|Nifty 50 | interval=30minute
+2026-04-28 10:10:00 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2026-04-02 → 2026-04-28
+2026-04-28 10:10:00 | fetcher | DEBUG    | Date range 2026-04-02 → 2026-04-28 split into 1 chunk(s) of ≤30 days.
+2026-04-28 10:10:00 | fetcher | DEBUG    |   Chunk 1/1: 2026-04-02 → 2026-04-28
+2026-04-28 10:10:00 | fetcher | DEBUG    |     ↳ received 208 candle(s).
+2026-04-28 10:10:00 | fetcher | INFO     | Historical data ready — 208 rows, 2026-04-02 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 10:10:00 | fetcher | INFO     | Live candles returned — 150 rows.
+2026-04-28 10:15:00 | fetcher | INFO     | Fetching last 150 live candles | instrument=NSE_INDEX|Nifty 50 | interval=30minute
+2026-04-28 10:15:00 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2026-04-02 → 2026-04-28
+2026-04-28 10:15:00 | fetcher | DEBUG    | Date range 2026-04-02 → 2026-04-28 split into 1 chunk(s) of ≤30 days.
+2026-04-28 10:15:00 | fetcher | DEBUG    |   Chunk 1/1: 2026-04-02 → 2026-04-28
+2026-04-28 10:15:00 | fetcher | DEBUG    |     ↳ received 208 candle(s).
+2026-04-28 10:15:00 | fetcher | INFO     | Historical data ready — 208 rows, 2026-04-02 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 10:15:00 | fetcher | INFO     | Live candles returned — 150 rows.
+2026-04-28 18:41:23 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2025-04-28 → 2026-04-28
+2026-04-28 18:41:23 | fetcher | DEBUG    | Date range 2025-04-28 → 2026-04-28 split into 13 chunk(s) of ≤30 days.
+2026-04-28 18:41:23 | fetcher | DEBUG    |   Chunk 1/13: 2025-04-28 → 2025-05-27
+2026-04-28 18:41:24 | fetcher | DEBUG    |     ↳ received 277 candle(s).
+2026-04-28 18:41:24 | fetcher | DEBUG    |   Chunk 2/13: 2025-05-28 → 2025-06-26
+2026-04-28 18:41:24 | fetcher | DEBUG    |     ↳ received 286 candle(s).
+2026-04-28 18:41:25 | fetcher | DEBUG    |   Chunk 3/13: 2025-06-27 → 2025-07-26
+2026-04-28 18:41:25 | fetcher | DEBUG    |     ↳ received 273 candle(s).
+2026-04-28 18:41:25 | fetcher | DEBUG    |   Chunk 4/13: 2025-07-27 → 2025-08-25
+2026-04-28 18:41:25 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-28 18:41:26 | fetcher | DEBUG    |   Chunk 5/13: 2025-08-26 → 2025-09-24
+2026-04-28 18:41:26 | fetcher | DEBUG    |     ↳ received 273 candle(s).
+2026-04-28 18:41:26 | fetcher | DEBUG    |   Chunk 6/13: 2025-09-25 → 2025-10-24
+2026-04-28 18:41:27 | fetcher | DEBUG    |     ↳ received 249 candle(s).
+2026-04-28 18:41:27 | fetcher | DEBUG    |   Chunk 7/13: 2025-10-25 → 2025-11-23
+2026-04-28 18:41:27 | fetcher | DEBUG    |     ↳ received 247 candle(s).
+2026-04-28 18:41:28 | fetcher | DEBUG    |   Chunk 8/13: 2025-11-24 → 2025-12-23
+2026-04-28 18:41:28 | fetcher | DEBUG    |     ↳ received 286 candle(s).
+2026-04-28 18:41:28 | fetcher | DEBUG    |   Chunk 9/13: 2025-12-24 → 2026-01-22
+2026-04-28 18:41:28 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-28 18:41:29 | fetcher | DEBUG    |   Chunk 10/13: 2026-01-23 → 2026-02-21
+2026-04-28 18:41:29 | fetcher | DEBUG    |     ↳ received 273 candle(s).
+2026-04-28 18:41:29 | fetcher | DEBUG    |   Chunk 11/13: 2026-02-22 → 2026-03-23
+2026-04-28 18:41:29 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-28 18:41:30 | fetcher | DEBUG    |   Chunk 12/13: 2026-03-24 → 2026-04-22
+2026-04-28 18:41:30 | fetcher | DEBUG    |     ↳ received 234 candle(s).
+2026-04-28 18:41:30 | fetcher | DEBUG    |   Chunk 13/13: 2026-04-23 → 2026-04-28
+2026-04-28 18:41:30 | fetcher | DEBUG    |     ↳ received 39 candle(s).
+2026-04-28 18:41:31 | fetcher | INFO     | Historical data ready — 3217 rows, 2025-04-28 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 18:41:31 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty Bank | interval=30minute | 2025-04-28 → 2026-04-28
+2026-04-28 18:41:31 | fetcher | DEBUG    | Date range 2025-04-28 → 2026-04-28 split into 13 chunk(s) of ≤30 days.
+2026-04-28 18:41:31 | fetcher | DEBUG    |   Chunk 1/13: 2025-04-28 → 2025-05-27
+2026-04-28 18:41:31 | fetcher | DEBUG    |     ↳ received 276 candle(s).
+2026-04-28 18:41:31 | fetcher | DEBUG    |   Chunk 2/13: 2025-05-28 → 2025-06-26
+2026-04-28 18:41:32 | fetcher | DEBUG    |     ↳ received 286 candle(s).
+2026-04-28 18:41:32 | fetcher | DEBUG    |   Chunk 3/13: 2025-06-27 → 2025-07-26
+2026-04-28 18:41:32 | fetcher | DEBUG    |     ↳ received 273 candle(s).
+2026-04-28 18:41:33 | fetcher | DEBUG    |   Chunk 4/13: 2025-07-27 → 2025-08-25
+2026-04-28 18:41:33 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-28 18:41:33 | fetcher | DEBUG    |   Chunk 5/13: 2025-08-26 → 2025-09-24
+2026-04-28 18:41:33 | fetcher | DEBUG    |     ↳ received 273 candle(s).
+2026-04-28 18:41:34 | fetcher | DEBUG    |   Chunk 6/13: 2025-09-25 → 2025-10-24
+2026-04-28 18:41:34 | fetcher | DEBUG    |     ↳ received 249 candle(s).
+2026-04-28 18:41:34 | fetcher | DEBUG    |   Chunk 7/13: 2025-10-25 → 2025-11-23
+2026-04-28 18:41:34 | fetcher | DEBUG    |     ↳ received 247 candle(s).
+2026-04-28 18:41:35 | fetcher | DEBUG    |   Chunk 8/13: 2025-11-24 → 2025-12-23
+2026-04-28 18:41:35 | fetcher | DEBUG    |     ↳ received 286 candle(s).
+2026-04-28 18:41:35 | fetcher | DEBUG    |   Chunk 9/13: 2025-12-24 → 2026-01-22
+2026-04-28 18:41:36 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-28 18:41:36 | fetcher | DEBUG    |   Chunk 10/13: 2026-01-23 → 2026-02-21
+2026-04-28 18:41:36 | fetcher | DEBUG    |     ↳ received 273 candle(s).
+2026-04-28 18:41:37 | fetcher | DEBUG    |   Chunk 11/13: 2026-02-22 → 2026-03-23
+2026-04-28 18:41:37 | fetcher | DEBUG    |     ↳ received 260 candle(s).
+2026-04-28 18:41:37 | fetcher | DEBUG    |   Chunk 12/13: 2026-03-24 → 2026-04-22
+2026-04-28 18:41:37 | fetcher | DEBUG    |     ↳ received 234 candle(s).
+2026-04-28 18:41:38 | fetcher | DEBUG    |   Chunk 13/13: 2026-04-23 → 2026-04-28
+2026-04-28 18:41:38 | fetcher | DEBUG    |     ↳ received 39 candle(s).
+2026-04-28 18:41:38 | fetcher | INFO     | Historical data ready — 3216 rows, 2025-04-28 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 18:48:44 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2026-03-29 → 2026-04-28
+2026-04-28 18:48:44 | fetcher | DEBUG    | Date range 2026-03-29 → 2026-04-28 split into 2 chunk(s) of ≤30 days.
+2026-04-28 18:48:44 | fetcher | DEBUG    |   Chunk 1/2: 2026-03-29 → 2026-04-27
+2026-04-28 18:48:45 | fetcher | DEBUG    |     ↳ received 234 candle(s).
+2026-04-28 18:48:45 | fetcher | DEBUG    |   Chunk 2/2: 2026-04-28 → 2026-04-28
+2026-04-28 18:48:45 | fetcher | DEBUG    |     ↳ received 0 candle(s).
+2026-04-28 18:48:45 | fetcher | INFO     | Historical data ready — 234 rows, 2026-03-30 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 18:48:45 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty Bank | interval=30minute | 2026-03-29 → 2026-04-28
+2026-04-28 18:48:45 | fetcher | DEBUG    | Date range 2026-03-29 → 2026-04-28 split into 2 chunk(s) of ≤30 days.
+2026-04-28 18:48:45 | fetcher | DEBUG    |   Chunk 1/2: 2026-03-29 → 2026-04-27
+2026-04-28 18:48:45 | fetcher | DEBUG    |     ↳ received 234 candle(s).
+2026-04-28 18:48:46 | fetcher | DEBUG    |   Chunk 2/2: 2026-04-28 → 2026-04-28
+2026-04-28 18:48:46 | fetcher | DEBUG    |     ↳ received 0 candle(s).
+2026-04-28 18:48:46 | fetcher | INFO     | Historical data ready — 234 rows, 2026-03-30 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 18:48:46 | fetcher | INFO     | Fetching last 150 live candles | instrument=NSE_INDEX|Nifty 50 | interval=30minute
+2026-04-28 18:48:46 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2026-04-02 → 2026-04-28
+2026-04-28 18:48:46 | fetcher | DEBUG    | Date range 2026-04-02 → 2026-04-28 split into 1 chunk(s) of ≤30 days.
+2026-04-28 18:48:46 | fetcher | DEBUG    |   Chunk 1/1: 2026-04-02 → 2026-04-28
+2026-04-28 18:48:46 | fetcher | DEBUG    |     ↳ received 208 candle(s).
+2026-04-28 18:48:46 | fetcher | INFO     | Historical data ready — 208 rows, 2026-04-02 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 18:48:46 | fetcher | INFO     | Live candles returned — 150 rows.
+2026-04-28 18:48:46 | fetcher | INFO     | Fetching multi-timeframe candles | instrument=NSE_INDEX|Nifty Bank | 5min×50 + 15min×50
+2026-04-28 18:48:46 | fetcher | INFO     | Fetching last 50 live candles | instrument=NSE_INDEX|Nifty Bank | interval=5minute
+2026-04-28 18:48:46 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty Bank | interval=5minute | 2026-04-21 → 2026-04-28
+2026-04-28 18:48:46 | fetcher | DEBUG    | Date range 2026-04-21 → 2026-04-28 split into 1 chunk(s) of ≤30 days.
+2026-04-28 18:48:46 | fetcher | DEBUG    |   Chunk 1/1: 2026-04-21 → 2026-04-28
+2026-04-28 18:48:47 | fetcher | ERROR    | Upstox API error for chunk 2026-04-21→2026-04-28: status=400, reason=Bad Request
+Traceback (most recent call last):
+  File "C:\Users\BHARATH RC\OneDrive\Desktop\demo\src\fetcher.py", line 333, in get_historical_data
+    response = api_instance.get_historical_candle_data1(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api\history_api.py", line 177, in get_historical_candle_data1
+    (data) = self.get_historical_candle_data1_with_http_info(instrument_key, interval, to_date, from_date, api_version, **kwargs)  # noqa: E501
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api\history_api.py", line 265, in get_historical_candle_data1_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api_client.py", line 327, in call_api
+    return self.__call_api(resource_path, method,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api_client.py", line 155, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api_client.py", line 349, in request
+    return self.rest_client.GET(url,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\rest.py", line 228, in GET
+    return self.request("GET", url,
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\rest.py", line 222, in request
+    raise ApiException(http_resp=r)
+upstox_client.rest.ApiException: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Date': 'Tue, 28 Apr 2026 13:18:46 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'reqid': '4034d5ee-2654-4844-8884-7ec8433c6555', 'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'message': 'request failed', 'requestid': '2c58ebbc-27d1-43f9-8e17-74a928ec6b88', 'x-content-type-options': 'nosniff', 'x-xss-protection': '0', 'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'strict-transport-security': 'max-age=0; includeSubDomains', 'x-frame-options': 'DENY', 'cf-cache-status': 'MISS', 'set-cookie': '__cf_bm=0EmmVEhOPBX3SpkUjATkKGMpT6bUCkZ7oLdWf7dfIVc-1777382326.599297-1.0.1.1-jczXK7oqq6q2vkP4TLhZe_nuAm3C2fcnYPtZEdTLyN_EFftswz2brHytDEQwYGbIoZt4RpEUocVdAFhk6MxD5JVcqJyfP_VsZV8LVvtQx1FbH2UOmPWqODvg88nb739z; HttpOnly; Secure; Path=/; Domain=upstox.com; Expires=Tue, 28 Apr 2026 13:48:46 GMT, _cfuvid=vvlQG_EE62XmT2l.M095GjrQ3aVwGOx0yL9v4p15i8M-1777382326.599297-1.0.1.1-ZEz7oAqFAg0eVYnXvaVaA.lux3igkGxG5FIpRSmD8Go; HttpOnly; SameSite=None; Secure; Path=/; Domain=upstox.com', 'Server': 'cloudflare', 'CF-RAY': '9f365ad5385f1967-CJB', 'alt-svc': 'h3=":443"; ma=86400'})
+HTTP response body: b'{"status":"error","errors":[{"errorCode":"UDAPI1020","message":"Interval accepts one of (1minute,30minute,day,week,month)","propertyPath":"getHistoricalCandleData.interval","invalidValue":"5minute","error_code":"UDAPI1020","property_path":"getHistoricalCandleData.interval","invalid_value":"5minute"}]}'
+
+2026-04-28 18:48:47 | fetcher | INFO     | Fetching nearest expiry | index=NIFTY | instrument_key=NSE_INDEX|Nifty 50
+2026-04-28 18:48:47 | fetcher | ERROR    | Upstox API error fetching option contracts for NSE_INDEX|Nifty 50: status=401, reason=Unauthorized
+Traceback (most recent call last):
+  File "C:\Users\BHARATH RC\OneDrive\Desktop\demo\src\fetcher.py", line 560, in get_nearest_expiry
+    response = options_api.get_option_contracts(instrument_key)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api\options_api.py", line 55, in get_option_contracts
+    (data) = self.get_option_contracts_with_http_info(instrument_key, **kwargs)  # noqa: E501
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api\options_api.py", line 118, in get_option_contracts_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api_client.py", line 327, in call_api
+    return self.__call_api(resource_path, method,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api_client.py", line 155, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api_client.py", line 349, in request
+    return self.rest_client.GET(url,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\rest.py", line 228, in GET
+    return self.request("GET", url,
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\rest.py", line 222, in request
+    raise ApiException(http_resp=r)
+upstox_client.rest.ApiException: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Tue, 28 Apr 2026 13:18:47 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'reqid': '5539ad45-4606-4096-84f3-bf45f40177d8', 'x-content-type-options': 'nosniff', 'x-xss-protection': '0', 'pragma': 'no-cache', 'strict-transport-security': 'max-age=0; includeSubDomains', 'x-frame-options': 'DENY', 'Cache-Control': 'must-revalidate,no-cache,no-store', 'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'message': 'request failed', 'cf-cache-status': 'DYNAMIC', 'set-cookie': '__cf_bm=lHnDnIYTiv5Zw6Tiko4jhSkH.w.LmL37b_zFLm6be18-1777382326.930175-1.0.1.1-t0RenhKMwJ83XHKusgAsWybgZ_zvXcaTyLJIxS7Fp2oQ9GwL.BaPtn34AfrO4KAyeXTdbf8J8fAaiPrhT3qlu6bANdjq9xqpHTMKWeLPQfpzNi90FqPsbV_09gbjv7YC; HttpOnly; Secure; Path=/; Domain=upstox.com; Expires=Tue, 28 Apr 2026 13:48:47 GMT', 'Server': 'cloudflare', 'CF-RAY': '9f365ad74a8bd8de-CJB', 'alt-svc': 'h3=":443"; ma=86400'})
+HTTP response body: b'{"status":"error","errors":[{"errorCode":"UDAPI100050","message":"Invalid token used to access API","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100050","property_path":null,"invalid_value":null}]}'
+
+2026-04-28 18:48:47 | fetcher | INFO     | Fetching nearest expiry | index=BANKNIFTY | instrument_key=NSE_INDEX|Nifty Bank
+2026-04-28 18:48:47 | fetcher | ERROR    | Upstox API error fetching option contracts for NSE_INDEX|Nifty Bank: status=401, reason=Unauthorized
+Traceback (most recent call last):
+  File "C:\Users\BHARATH RC\OneDrive\Desktop\demo\src\fetcher.py", line 560, in get_nearest_expiry
+    response = options_api.get_option_contracts(instrument_key)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api\options_api.py", line 55, in get_option_contracts
+    (data) = self.get_option_contracts_with_http_info(instrument_key, **kwargs)  # noqa: E501
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api\options_api.py", line 118, in get_option_contracts_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api_client.py", line 327, in call_api
+    return self.__call_api(resource_path, method,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api_client.py", line 155, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\api_client.py", line 349, in request
+    return self.rest_client.GET(url,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\rest.py", line 228, in GET
+    return self.request("GET", url,
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BHARATH RC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\upstox_client\rest.py", line 222, in request
+    raise ApiException(http_resp=r)
+upstox_client.rest.ApiException: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Tue, 28 Apr 2026 13:18:47 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'reqid': 'a8370d8f-3d3d-41df-a37e-48c7fa6fd857', 'x-content-type-options': 'nosniff', 'x-xss-protection': '0', 'pragma': 'no-cache', 'strict-transport-security': 'max-age=0; includeSubDomains', 'x-frame-options': 'DENY', 'Cache-Control': 'must-revalidate,no-cache,no-store', 'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'message': 'request failed', 'set-cookie': '__cf_bm=JiVXqALhNTSOixtj055VYY2KGlkrus5t42FD9hGAra4-1777382327.3383784-1.0.1.1-Yiwy661Mv1RyfERtK._mboHqb_USQkb8oB8Azb7p8MnJAuucPL1NCSLD.MV5zqEewr_ZICSLU21FbLatBECTnBRzBm_YSf38l2ZPcmsCSGBuadMGMP1VzycusYeEcu1i; HttpOnly; Secure; Path=/; Domain=upstox.com; Expires=Tue, 28 Apr 2026 13:48:47 GMT', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '9f365ad9de5f498d-CJB', 'alt-svc': 'h3=":443"; ma=86400'})
+HTTP response body: b'{"status":"error","errors":[{"errorCode":"UDAPI100050","message":"Invalid token used to access API","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100050","property_path":null,"invalid_value":null}]}'
+
+2026-04-28 18:53:50 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2026-03-29 → 2026-04-28
+2026-04-28 18:53:50 | fetcher | DEBUG    | Date range 2026-03-29 → 2026-04-28 split into 2 chunk(s) of ≤30 days.
+2026-04-28 18:53:50 | fetcher | DEBUG    |   Chunk 1/2: 2026-03-29 → 2026-04-27
+2026-04-28 18:53:51 | fetcher | DEBUG    |     ↳ received 234 candle(s).
+2026-04-28 18:53:52 | fetcher | DEBUG    |   Chunk 2/2: 2026-04-28 → 2026-04-28
+2026-04-28 18:53:52 | fetcher | DEBUG    |     ↳ received 0 candle(s).
+2026-04-28 18:53:52 | fetcher | INFO     | Historical data ready — 234 rows, 2026-03-30 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 18:55:22 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2026-03-29 → 2026-04-28
+2026-04-28 18:55:22 | fetcher | DEBUG    | Date range 2026-03-29 → 2026-04-28 split into 2 chunk(s) of ≤30 days.
+2026-04-28 18:55:22 | fetcher | DEBUG    |   Chunk 1/2: 2026-03-29 → 2026-04-27
+2026-04-28 18:55:22 | fetcher | DEBUG    |     ↳ received 234 candle(s).
+2026-04-28 18:55:23 | fetcher | DEBUG    |   Chunk 2/2: 2026-04-28 → 2026-04-28
+2026-04-28 18:55:23 | fetcher | DEBUG    |     ↳ received 0 candle(s).
+2026-04-28 18:55:23 | fetcher | INFO     | Historical data ready — 234 rows, 2026-03-30 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 18:55:23 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty Bank | interval=30minute | 2026-03-29 → 2026-04-28
+2026-04-28 18:55:23 | fetcher | DEBUG    | Date range 2026-03-29 → 2026-04-28 split into 2 chunk(s) of ≤30 days.
+2026-04-28 18:55:23 | fetcher | DEBUG    |   Chunk 1/2: 2026-03-29 → 2026-04-27
+2026-04-28 18:55:23 | fetcher | DEBUG    |     ↳ received 234 candle(s).
+2026-04-28 18:55:24 | fetcher | DEBUG    |   Chunk 2/2: 2026-04-28 → 2026-04-28
+2026-04-28 18:55:24 | fetcher | DEBUG    |     ↳ received 0 candle(s).
+2026-04-28 18:55:24 | fetcher | INFO     | Historical data ready — 234 rows, 2026-03-30 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 18:55:24 | fetcher | INFO     | Fetching last 150 live candles | instrument=NSE_INDEX|Nifty 50 | interval=30minute
+2026-04-28 18:55:24 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2026-04-02 → 2026-04-28
+2026-04-28 18:55:24 | fetcher | DEBUG    | Date range 2026-04-02 → 2026-04-28 split into 1 chunk(s) of ≤30 days.
+2026-04-28 18:55:24 | fetcher | DEBUG    |   Chunk 1/1: 2026-04-02 → 2026-04-28
+2026-04-28 18:55:25 | fetcher | DEBUG    |     ↳ received 208 candle(s).
+2026-04-28 18:55:25 | fetcher | INFO     | Historical data ready — 208 rows, 2026-04-02 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 18:55:25 | fetcher | INFO     | Live candles returned — 150 rows.
+2026-04-28 18:55:25 | fetcher | INFO     | Fetching multi-timeframe candles | instrument=NSE_INDEX|Nifty Bank | fetching 75 × 1min → resample to 5min + 15min
+2026-04-28 18:55:25 | fetcher | INFO     | Fetching last 75 live candles | instrument=NSE_INDEX|Nifty Bank | interval=1minute
+2026-04-28 18:55:25 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty Bank | interval=1minute | 2026-04-21 → 2026-04-28
+2026-04-28 18:55:25 | fetcher | DEBUG    | Date range 2026-04-21 → 2026-04-28 split into 1 chunk(s) of ≤30 days.
+2026-04-28 18:55:25 | fetcher | DEBUG    |   Chunk 1/1: 2026-04-21 → 2026-04-28
+2026-04-28 18:55:25 | fetcher | DEBUG    |     ↳ received 1875 candle(s).
+2026-04-28 18:55:25 | fetcher | INFO     | Historical data ready — 1875 rows, 2026-04-21 09:15:00+05:30 → 2026-04-27 15:29:00+05:30.
+2026-04-28 18:55:25 | fetcher | INFO     | Live candles returned — 75 rows.
+2026-04-28 18:55:26 | fetcher | INFO     | Multi-timeframe resample complete — 1min: 75 rows → 5min: 15 rows, 15min: 5 rows.
+2026-04-28 18:55:26 | fetcher | INFO     | Fetching nearest expiry | index=NIFTY | instrument_key=NSE_INDEX|Nifty 50
+2026-04-28 18:55:26 | fetcher | WARNING  | Upstox Options API error (status=401, reason=Unauthorized) — falling back to manual expiry calculation.
+2026-04-28 18:55:46 | fetcher | INFO     | Using calculated expiry (API unavailable): 30-Apr-2026
+2026-04-28 18:55:46 | fetcher | INFO     | Fetching nearest expiry | index=BANKNIFTY | instrument_key=NSE_INDEX|Nifty Bank
+2026-04-28 18:55:46 | fetcher | WARNING  | Upstox Options API error (status=401, reason=Unauthorized) — falling back to manual expiry calculation.
+2026-04-28 18:55:46 | fetcher | INFO     | Using calculated expiry (API unavailable): 29-Apr-2026
+2026-04-28 18:58:02 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2026-03-29 → 2026-04-28
+2026-04-28 18:58:02 | fetcher | DEBUG    | Date range 2026-03-29 → 2026-04-28 split into 2 chunk(s) of ≤30 days.
+2026-04-28 18:58:02 | fetcher | DEBUG    |   Chunk 1/2: 2026-03-29 → 2026-04-27
+2026-04-28 18:58:02 | fetcher | DEBUG    |     ↳ received 234 candle(s).
+2026-04-28 18:58:03 | fetcher | DEBUG    |   Chunk 2/2: 2026-04-28 → 2026-04-28
+2026-04-28 18:58:03 | fetcher | DEBUG    |     ↳ received 0 candle(s).
+2026-04-28 18:58:03 | fetcher | INFO     | Historical data ready — 234 rows, 2026-03-30 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 18:58:03 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty Bank | interval=30minute | 2026-03-29 → 2026-04-28
+2026-04-28 18:58:03 | fetcher | DEBUG    | Date range 2026-03-29 → 2026-04-28 split into 2 chunk(s) of ≤30 days.
+2026-04-28 18:58:03 | fetcher | DEBUG    |   Chunk 1/2: 2026-03-29 → 2026-04-27
+2026-04-28 18:58:03 | fetcher | DEBUG    |     ↳ received 234 candle(s).
+2026-04-28 18:58:03 | fetcher | DEBUG    |   Chunk 2/2: 2026-04-28 → 2026-04-28
+2026-04-28 18:58:04 | fetcher | DEBUG    |     ↳ received 0 candle(s).
+2026-04-28 18:58:04 | fetcher | INFO     | Historical data ready — 234 rows, 2026-03-30 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 18:58:04 | fetcher | INFO     | Fetching last 150 live candles | instrument=NSE_INDEX|Nifty 50 | interval=30minute
+2026-04-28 18:58:04 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2026-04-02 → 2026-04-28
+2026-04-28 18:58:04 | fetcher | DEBUG    | Date range 2026-04-02 → 2026-04-28 split into 1 chunk(s) of ≤30 days.
+2026-04-28 18:58:04 | fetcher | DEBUG    |   Chunk 1/1: 2026-04-02 → 2026-04-28
+2026-04-28 18:58:04 | fetcher | DEBUG    |     ↳ received 208 candle(s).
+2026-04-28 18:58:04 | fetcher | INFO     | Historical data ready — 208 rows, 2026-04-02 09:15:00+05:30 → 2026-04-27 15:15:00+05:30.
+2026-04-28 18:58:04 | fetcher | INFO     | Live candles returned — 150 rows.
+2026-04-28 18:58:04 | fetcher | INFO     | Fetching multi-timeframe candles | instrument=NSE_INDEX|Nifty Bank | fetching 75 × 1min → resample to 5min + 15min
+2026-04-28 18:58:04 | fetcher | INFO     | Fetching last 75 live candles | instrument=NSE_INDEX|Nifty Bank | interval=1minute
+2026-04-28 18:58:04 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty Bank | interval=1minute | 2026-04-21 → 2026-04-28
+2026-04-28 18:58:04 | fetcher | DEBUG    | Date range 2026-04-21 → 2026-04-28 split into 1 chunk(s) of ≤30 days.
+2026-04-28 18:58:04 | fetcher | DEBUG    |   Chunk 1/1: 2026-04-21 → 2026-04-28
+2026-04-28 18:58:04 | fetcher | DEBUG    |     ↳ received 1875 candle(s).
+2026-04-28 18:58:04 | fetcher | INFO     | Historical data ready — 1875 rows, 2026-04-21 09:15:00+05:30 → 2026-04-27 15:29:00+05:30.
+2026-04-28 18:58:04 | fetcher | INFO     | Live candles returned — 75 rows.
+2026-04-28 18:58:04 | fetcher | INFO     | Multi-timeframe resample complete — 1min: 75 rows → 5min: 15 rows, 15min: 5 rows.
+2026-04-28 18:58:04 | fetcher | INFO     | Fetching nearest expiry | index=NIFTY | instrument_key=NSE_INDEX|Nifty 50
+2026-04-28 18:58:05 | fetcher | INFO     | Nearest expiry for NIFTY: 28-Apr-2026 (from 18 future expiries found).
+2026-04-28 18:58:05 | fetcher | INFO     | Fetching nearest expiry | index=BANKNIFTY | instrument_key=NSE_INDEX|Nifty Bank
+2026-04-28 18:58:05 | fetcher | INFO     | Nearest expiry for BANKNIFTY: 28-Apr-2026 (from 6 future expiries found).
+2026-04-29 09:45:00 | fetcher | INFO     | Fetching last 150 live candles | instrument=NSE_INDEX|Nifty 50 | interval=30minute
+2026-04-29 09:45:00 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=30minute | 2026-04-03 → 2026-04-29
+2026-04-29 09:45:00 | fetcher | DEBUG    | Date range 2026-04-03 → 2026-04-29 split into 1 chunk(s) of ≤30 days.
+2026-04-29 09:45:00 | fetcher | DEBUG    |   Chunk 1/1: 2026-04-03 → 2026-04-29
+2026-04-29 09:45:00 | fetcher | DEBUG    |     ↳ received 208 candle(s).
+2026-04-29 09:45:00 | fetcher | INFO     | Historical data ready — 208 rows, 2026-04-06 09:15:00+05:30 → 2026-04-28 15:15:00+05:30.
+2026-04-29 09:45:00 | fetcher | INFO     | Live candles returned — 150 rows.
+2026-04-29 09:45:01 | fetcher | INFO     | Fetching multi-timeframe candles | instrument=NSE_INDEX|Nifty 50 | fetching 75 × 1min → resample to 5min + 15min
+2026-04-29 09:45:01 | fetcher | INFO     | Fetching last 75 live candles | instrument=NSE_INDEX|Nifty 50 | interval=1minute
+2026-04-29 09:45:01 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty 50 | interval=1minute | 2026-04-22 → 2026-04-29
+2026-04-29 09:45:01 | fetcher | DEBUG    | Date range 2026-04-22 → 2026-04-29 split into 1 chunk(s) of ≤30 days.
+2026-04-29 09:45:01 | fetcher | DEBUG    |   Chunk 1/1: 2026-04-22 → 2026-04-29
+2026-04-29 09:45:01 | fetcher | DEBUG    |     ↳ received 1875 candle(s).
+2026-04-29 09:45:01 | fetcher | INFO     | Historical data ready — 1875 rows, 2026-04-22 09:15:00+05:30 → 2026-04-28 15:29:00+05:30.
+2026-04-29 09:45:01 | fetcher | INFO     | Live candles returned — 75 rows.
+2026-04-29 09:45:01 | fetcher | INFO     | Multi-timeframe resample complete — 1min: 75 rows → 5min: 15 rows, 15min: 5 rows.
+2026-04-29 09:45:01 | fetcher | INFO     | Fetching nearest expiry | index=NIFTY | instrument_key=NSE_INDEX|Nifty 50
+2026-04-29 09:45:02 | fetcher | WARNING  | Upstox Options API error (status=401, reason=Unauthorized) — falling back to manual expiry calculation.
+2026-04-29 09:45:02 | fetcher | INFO     | Using calculated expiry (API unavailable): 30-Apr-2026
+2026-04-29 09:45:03 | fetcher | INFO     | Fetching last 150 live candles | instrument=NSE_INDEX|Nifty Bank | interval=30minute
+2026-04-29 09:45:03 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty Bank | interval=30minute | 2026-04-03 → 2026-04-29
+2026-04-29 09:45:03 | fetcher | DEBUG    | Date range 2026-04-03 → 2026-04-29 split into 1 chunk(s) of ≤30 days.
+2026-04-29 09:45:03 | fetcher | DEBUG    |   Chunk 1/1: 2026-04-03 → 2026-04-29
+2026-04-29 09:45:03 | fetcher | DEBUG    |     ↳ received 208 candle(s).
+2026-04-29 09:45:03 | fetcher | INFO     | Historical data ready — 208 rows, 2026-04-06 09:15:00+05:30 → 2026-04-28 15:15:00+05:30.
+2026-04-29 09:45:03 | fetcher | INFO     | Live candles returned — 150 rows.
+2026-04-29 09:45:03 | fetcher | INFO     | Fetching multi-timeframe candles | instrument=NSE_INDEX|Nifty Bank | fetching 75 × 1min → resample to 5min + 15min
+2026-04-29 09:45:03 | fetcher | INFO     | Fetching last 75 live candles | instrument=NSE_INDEX|Nifty Bank | interval=1minute
+2026-04-29 09:45:03 | fetcher | INFO     | Fetching historical data | instrument=NSE_INDEX|Nifty Bank | interval=1minute | 2026-04-22 → 2026-04-29
+2026-04-29 09:45:03 | fetcher | DEBUG    | Date range 2026-04-22 → 2026-04-29 split into 1 chunk(s) of ≤30 days.
+2026-04-29 09:45:03 | fetcher | DEBUG    |   Chunk 1/1: 2026-04-22 → 2026-04-29
+2026-04-29 09:45:04 | fetcher | DEBUG    |     ↳ received 1875 candle(s).
+2026-04-29 09:45:04 | fetcher | INFO     | Historical data ready — 1875 rows, 2026-04-22 09:15:00+05:30 → 2026-04-28 15:29:00+05:30.
+2026-04-29 09:45:04 | fetcher | INFO     | Live candles returned — 75 rows.
+2026-04-29 09:45:04 | fetcher | INFO     | Multi-timeframe resample complete — 1min: 75 rows → 5min: 15 rows, 15min: 5 rows.
+2026-04-29 09:45:04 | fetcher | INFO     | Fetching nearest expiry | index=BANKNIFTY | instrument_key=NSE_INDEX|Nifty Bank
+2026-04-29 09:45:04 | fetcher | WARNING  | Upstox Options API error (status=401, reason=Unauthorized) — falling back to manual expiry calculation.
+2026-04-29 09:45:04 | fetcher | INFO     | Using calculated expiry (API unavailable): 29-Apr-2026

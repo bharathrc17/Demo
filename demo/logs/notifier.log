@@ -1,0 +1,12 @@
+2026-04-26 00:33:58 | notifier | ERROR    | Telegram API error [startup]: Chat not found
+2026-04-26 01:09:12 | notifier | INFO     | Message sent [startup] → chat 6906394787
+2026-04-26 01:13:04 | notifier | INFO     | Message sent [startup] → chat 6906394787
+2026-04-27 09:49:10 | notifier | INFO     | Message sent [startup] → chat 6906394787
+2026-04-27 09:50:01 | notifier | INFO     | Message sent [error_alert] → chat 6906394787
+2026-04-27 09:55:02 | notifier | INFO     | Message sent [error_alert] → chat 6906394787
+2026-04-28 10:04:41 | notifier | INFO     | Message sent [startup] → chat 6906394787
+2026-04-28 10:05:06 | notifier | INFO     | Message sent [signal=SELL] → chat 6906394787
+2026-04-28 19:38:59 | notifier | INFO     | Message sent [startup] -> chat 6906394787
+2026-04-29 09:44:45 | notifier | INFO     | Message sent [startup] -> chat 6906394787
+2026-04-29 09:45:03 | notifier | INFO     | Message sent [signal=NIFTY 24000 PE] -> chat 6906394787
+2026-04-29 09:45:05 | notifier | INFO     | Message sent [signal=BANKNIFTY 55400 PE] -> chat 6906394787

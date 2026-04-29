@@ -1,0 +1,34 @@
+# ============================================================
+# Requirements for Nifty 50 Stock Signal Bot
+# ============================================================
+
+# Upstox Python SDK — live market data & historical OHLCV
+upstox-python-sdk
+
+# Data manipulation
+pandas
+numpy
+
+# Technical analysis indicators (RSI, MACD, Bollinger, etc.)
+pandas-ta
+
+# XGBoost classifier for signal prediction
+xgboost
+
+# Model evaluation, preprocessing, train/test splitting
+scikit-learn
+
+# Model serialization (save / load trained models)
+joblib
+
+# Telegram bot for sending BUY/SELL alerts
+python-telegram-bot==20.7
+
+# Job scheduling — periodic pipeline execution during market hours
+apscheduler
+
+# Timezone handling for IST / market-hours logic
+pytz
+
+# (Optional) Database persistence for candle history & signal log
+sqlalchemy
